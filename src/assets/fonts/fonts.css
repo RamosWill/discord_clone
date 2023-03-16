@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'fonte1';
+    src: url('fonte1.ttf');
+}
+
+@font-face {
+    font-family: 'fonte2';
+    src: url('fonte2.ttf');
+}
+
+@font-face {
+    font-family: 'fonte3';
+    src: url('fonte3.ttf');
+}
+
+@font-face {
+    font-family: 'fonte4';
+    src: url('fonte4.woff2');
+}
+
+@font-face {
+    font-family: 'fonte5';
+    src: url('fonte5.woff2');
+}
+
+@font-face {
+    font-family: 'fonte6';
+    src: url('fonte6.woff2');
+}

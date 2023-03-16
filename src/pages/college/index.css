@@ -1,0 +1,481 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.faixa1 {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/images/6332958f461d9bb74e86571a_6Iy--lEU.png);
+}
+.conteudoFX1 {
+    display: flex;
+    flex-direction: column;
+    
+    width: 60%;
+    
+}
+
+    .faixa1 nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        
+    }
+
+    .faixa1 .botoesPrincipais > a:hover {
+        text-decoration: underline;
+    }
+
+        .botoesPrincipais {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-family: 'fonte4';
+            font-weight: bold;
+            justify-content: space-around;
+            width: 50%;
+        }
+    
+    
+
+    .faixa1 nav img {
+        height: 39px;
+        width: 124px;
+    }
+
+    #botao {
+        padding: 12px;
+        
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        transition: 0.3s;
+        font-family: 'fonte5';
+    }
+
+        #botao:hover {
+            box-shadow: 3px 3px 3px 1px rgb(40, 40, 40);
+            transition: 0.3s;
+        }
+
+    .tituloFX1 {
+        display:flex;
+        font-family: 'fonte2';
+        font-size: 25px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .titulo1 h1 {
+        font-family: 'fonte5';
+    }
+
+        #titulo1  {
+            font-family: 'fonte1';
+            line-height: 55px;
+        }
+
+    .descriçãoFX1 {
+        display:flex;
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .botõesFX1 {
+        display: flex;
+        flex-direction: column;
+        font-family: 'fonte5';
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+    .botõesFX1 a {
+        background-color: #23272a;
+        padding: 12px;
+        height: 51px;
+        width: 270px;
+        margin: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        margin-left: 0px;
+        transition: 0.4s ease;
+    }
+
+    #botao1 {
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        background-color: #23272a;
+        padding: 12px;
+        height: 51px;
+        width: 270px;
+        margin: 30px;
+        color: white;
+        justify-content: center;
+        border-radius: 40px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        justify-content: space-evenly;
+        transition: 0.4s ease;
+    }
+
+        #botao1:hover {
+            background-color: #404243;
+            box-shadow: 3px 3px 3px 0px rgb(84, 84, 84);
+         
+            transform: translateY(-4px);
+            transition: 0.4s ease;
+        }
+
+    #botao1 img {
+        height: 30px;
+        width: 26px;
+        border: white;
+    }
+
+    #botao2:hover {
+        background-color: #404243;
+        box-shadow: 3px 3px 3px 0px rgb(84, 84, 84);
+     
+        transform: translateY(-4px);
+        transition: 0.4s ease;
+    }
+
+    .descriçãoFX1 p {
+        line-height: 30px;
+        font-family: 'fonte4';
+    }
+
+
+
+
+    .faixa4 {
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudoFX4 {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudoFX4 > h1 {
+        font-family: 'fonte3';
+        font-size: 42px;
+        line-height: 70px;
+    
+    }
+    .conteudoFX4 > p {
+        font-family: 'fonte5';
+        font-size: 20px;
+        
+    }
+    
+     iframe {
+            width: 875px;
+            height: 500px;    
+            border-radius: 30px;
+            margin-top: 56px;
+        }
+    
+    .cardsFX4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    
+    .card1 {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+      
+    }
+    
+    
+    .card1 p {
+        font-family: 'fonte4';
+        font-size: 16px;
+        width: 325px;
+        margin: 20px 0px;       
+        line-height: 25px;
+    }
+    
+        .txt1 > p {
+    
+        }
+    .card1 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .txt1 {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        font-size: 16px;
+        margin: 0px 0px 0px;
+    }
+    
+        .txt1 p {
+            display: flex;
+            justify-content: flex-end;
+            color: #5865F2;
+            margin-bottom: 0px;
+        }
+    
+    .card2 {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 19px;
+        margin-left: 70px;
+    }
+    
+    
+    .card2 p {
+        font-family: 'fonte4';
+        font-size: 16px;
+        width: 325px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    .card2 > p {
+        margin-bottom: 20px;
+    }
+    .card2 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .txt2 {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        font-size: 16px;
+        margin: 20px;
+    }
+    
+        .txt2 p {
+            display: flex;
+            justify-content: flex-end;
+            color: #5865F2;
+        }
+    
+    
+    
+    .card3 {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        margin-left: 70px;
+    }
+    
+    
+    .card3 p {
+        font-family: 'fonte4';
+        font-size: 16px;
+        width: 325px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+        .card3 > p {
+            margin-bottom: 40px;
+        }
+    .card3 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    .txt3 {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        font-size: 16px;
+        margin: 20px;
+    }
+    
+        .txt3 p {
+            display: flex;
+            justify-content: flex-end;
+            color: #5865F2;
+        }
+
+        
+
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        background-color: #f6f6f6;
+        align-items: center;
+        padding: 120px 0px 120px 0px;
+    }
+
+        .containerFx2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .containerFx2 h1 {
+            font-family: 'fonte3';
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .containerFx2 p {
+            font-family: 'fonte4';
+            font-size: 20px;
+        }
+
+
+
+        footer {
+            background-color: #23272a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+           }
+    
+           .primeiraSec {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 8px;
+           }
+    
+           .primeiraSec img {
+            height: 16px;
+            width: 24px;
+           }
+    
+           .idioma {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            align-items: center;
+            
+           }
+    
+           .idioma p {
+            margin-right: 4px;
+            font-family: 'fonte4';
+            margin-left: 7px;
+            color: white;
+           
+           }
+    
+           .socialMedia {
+            display: flex;
+            flex-direction: row;
+           }
+    
+           .socialMedia a {
+            color: white;
+            margin-left: 24px;
+            margin-top: 10px;
+           }
+    
+           .tuiter {
+            margin-left: 0px;
+           }
+    
+           .primeiraSec h4 {
+            font-size: 30px;
+            font-family: 'fonte2';
+            color:#5865f2;
+            margin-bottom: 4px;
+            
+           }
+    
+           .grupoInformacao {
+            display: flex;
+            flex-direction: row;
+           }
+           
+           .final {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+           }
+    
+           .final svg {
+            color: #fff;
+           }
+    
+           .subsec {
+            font-family: 'fonte4';
+            display: flex;
+            flex-direction: column;
+            margin: 0px 50px 50px 50px;
+            padding: 8px;
+           }
+    
+           .subsec h5 {
+            color:#5865f2;
+            line-height: 40px;
+            font-size: 16px;
+           }
+    
+           .subsec span {
+            color: white;
+            line-height: 40px;
+           }
+    
+           .subsec span:hover {
+            text-decoration: underline;
+           }
+    
+           hr {
+            border: 1px solid #5865f2;
+            width: 100%;
+            margin-bottom: 30px;
+            margin-top: 0px;
+           }
+    
+           .final .botaoFooter {
+            text-decoration: none;
+            padding: 12px 12px;
+            border-radius: 40px;
+            background-color: #5865f2;
+            color: white;
+            margin-top: 15px;
+            font-size: 15px;
+            font-family: 'fonte4';
+            transition: 0.3s;
+           }
+
+           .botaoFooter:hover {
+            box-shadow: 4px 4px 9px 0px #5865f2;
+            background-color: #6e79ed;
+            transition: 0.3s;
+           }
+
+           
+
